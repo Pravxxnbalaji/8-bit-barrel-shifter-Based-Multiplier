@@ -1,0 +1,32 @@
+#-----------------------------------------------------------
+# Vivado v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Fri Oct 31 17:23:09 2025
+# Process ID: 4820
+# Current directory: C:/Users/IIITDMK-EC/Desktop/ec0024
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent11660 C:\Users\IIITDMK-EC\Desktop\ec0024\ec0024.xpr
+# Log file: C:/Users/IIITDMK-EC/Desktop/ec0024/vivado.log
+# Journal file: C:/Users/IIITDMK-EC/Desktop/ec0024\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/IIITDMK-EC/Desktop/ec0024/ec0024.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+source tb_barrel_multiplier.tcl
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+wait_on_run impl_1
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+wait_on_run impl_1
+reset_run synth_1
+launch_runs synth_1 -jobs 12
+wait_on_run synth_1
+open_run synth_1 -name synth_1
+launch_runs impl_1 -jobs 12
+wait_on_run impl_1
+close_design
+open_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+wait_on_run impl_1
+close_sim

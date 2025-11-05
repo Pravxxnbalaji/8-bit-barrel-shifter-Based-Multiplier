@@ -1,4 +1,4 @@
-# 8-bit-barrel-shifter
+# 8-bit-barrel-shifter-based-Multiplier
 8-bit barrel shifter implementation using multiplexers
 # ⚙️ 8-Bit Barrel Shifter Based Multiplier
 

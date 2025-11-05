@@ -80,11 +80,18 @@ Below are the waveform simulation outputs from the testbench of the Booth multip
 
 ### Case 1
 ![Simulation 1](1.png)
+
 ### Case 2
 ![Simulation 2](2.png)
 
 ### Case 3
 ![Simulation 3](3.png)
+
+### CASE 4
+![Simulation 4](4.jpeg)
+
+### CASE 5
+![Simulation 5](5.jpeg)
 
 
 ## 🔹 Block Diagram
